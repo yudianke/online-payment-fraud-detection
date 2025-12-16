@@ -20,7 +20,7 @@ Online payment systems are highly vulnerable to fraud due to their scale and rea
 - **Source**: Kaggle – Online Payments Fraud Detection Dataset  
   https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
 - **Size**: ~6.3 million transactions
-- **Features**: Transaction amount, balances before/after transfer, transaction type, time step
+- **Structure**: 11 columns, including transaction attributes and a binary fraud label (`isFraud`)
 - **Imbalance**: Fraud accounts for ~0.1% of all transactions
 
 This dataset is synthetic but designed to closely resemble real-world online payment behavior.
